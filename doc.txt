@@ -79,3 +79,20 @@ commit > stage to commit
 aller à guit shell repertoire  projet
 commande git pull 
 commande git push
+
+ce code est à mettre dans le fichier 
+vendor/larevel/fremework/Illuminate/Foundation/Auth/RegistersUsers.php
+use App\Domaine;
+use App\NiveauEtude;
+use App\Pays;
+
+public function showRegistrationForm()
+    {
+        $pays=Pays::pluck('nom_fr_fr', 'id');
+     
+          $domaine=Domaine::pluck('domaine_name', 'id'); 
+         $niveauEtude=NiveauEtude::pluck('name', 'id'); 
+
+        return view('auth.register',compact('niveauEtude','domaine','pays'));;
+}
+      
