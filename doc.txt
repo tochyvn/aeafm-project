@@ -1,0 +1,74 @@
+creer un nouveau 
+projet laravel new nomProjet
+creer un model 
+php artisan make:model (api)
+
+créer une migration 
+php artisan make:migration create_nom_table --create(database/migration)
+nominattion des table 
+le nom des table finissent par "s"
+un mon de table composé est séparé par "_"
+
+creer une table dans la base de donné configurer dans le fichier .evn
+php artisan migrate
+
+supprimer une migration se place dans database\migrations  et supprmer pour executer cette commmande: 
+composer dump-autoload
+
+ajouter un champ dans une table : 
+php artisan make:migration add_to --table=nomTable et en suitephp artisan migrate
+ajouter la barre de debugage 
+composer require barryvdh/laravel-debugbar 
+puis ajouter dans app.php: Barryvdh\Debugbar\ServiceProvider::class,
+
+autentification laravel 5.3.26
+https://www.youtube.com/watch?v=1mGoVWBCRDw&index=16&list=PLjwdMgw5TTLUCpXVEehCHs99N7IWByS3i
+php artisan make:auth
+php artisan migrate
+
+formulaire 
+Call to undefined method Illuminate \ Foundation \ Application ::bindShared()
+
+composer.json
+ "laravelcollective/html": "5.3.*",
+ commande composer update
+
+config/app.php
+//Provider
+Collective\Html\HtmlServiceProvider::class
+ 
+//Aliases
+'Form' => Collective\Html\FormFacade::class,
+'Html' => Collective\Html\HtmlFacade::class,
+
+Validation formulaire :
+php artisan make:request nomRequest
+autorize true
+rule{"field name"=>"required|autre"}
+Controller include use App\Http\requests\nomRequest
+method store(nomRequest request)
+view create
+ @if ($errors->has('field name'))
+                  <span class="help-block errors">
+                      <strong>{{ $errors->first('field name') }}</strong>
+                  </span>
+              @endif
+
+type  date 
+composer require jenssegers/date
+config/app.php 
+Jenssegers\Date\DateServiceProvider::class,
+'Date' => Jenssegers\Date\Date::class,
+plus 
+http://elliottchiaradia.ch/blog/article/detail/laravel-5-les-dates
+type variable 
+https://laravel.com/docs/4.2/schema
+
+creer un session 
+session::put('clef'='valeur')
+session table
+session::put('clef.tablename'='[1,2]')
+obtenir la valeur session('keyname')
+
+moteur de recherche
+https://www.youtube.com/watch?v=g7YcK-fsOAs&spfreload=10

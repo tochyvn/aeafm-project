@@ -1,0 +1,136 @@
+
+.menugauche{
+margin: 0px;
+  padding: 0px;
+
+  display: inline-block;
+  float:left;
+  border-radius: 5px;
+  border: 1px solid #ffffff;
+    font-size: 14px;
+  line-height: 20px;
+
+}
+.menugauche>nav{
+  margin: 0px;
+  padding: 0px;
+  position: fixed;
+
+}
+.menugauchefixed{
+  margin: 0px;
+  padding: 0px;
+  position: fixed;
+}
+#menugauche li{
+
+  display: inline-block;
+  position: relative;
+  margin: 0px;
+  padding: 0px;
+  text-align: center;
+  vertical-align: middle;
+  width:100%;
+  font-size: 14px;
+  line-height: 20px;
+ 
+}
+
+#menugauche a{
+    display: block;
+    text-decoration: none;
+    width:100%;
+    line-height: 30px;
+    text-align: left;
+    padding:  5px;
+    padding: 0px;
+    min-width:50px;
+    color: black;
+    font-size: 14px;
+    line-height: 20px;
+
+  }
+#menugauche a:hover {
+  background-color:  #f5f5f5;
+      color:#222222;
+    
+  }
+  /*decaler tous les sous menu**/
+#menugauche li ul{
+    position: absolute;
+    left: -5000px;
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+    background-color: white;
+     margin-left: 1%; 
+    font-size: 14px;
+    line-height: 20px;
+  }
+#menugauche li:hover  /*quelque soit le menu survolÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Â ÃƒÂ¢Ã¢â€šÂ¬Ã¢â€žÂ¢ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã‚Â ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬ÃƒÂ¢Ã¢â‚¬Å¾Ã‚Â¢ÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬Ãƒâ€šÃ‚Â ÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡Ãƒâ€šÃ‚Â¬ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¾Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Â ÃƒÂ¢Ã¢â€šÂ¬Ã¢â€žÂ¢ÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡Ãƒâ€šÃ‚Â¬ÃƒÆ’Ã¢â‚¬Â¦Ãƒâ€šÃ‚Â¡ÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬Ãƒâ€¦Ã‚Â¡ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â© faire ses actions*/
+  {
+    
+    cursor: pointer;
+    min-width:50px;
+    background-color:  #77d3ff ;
+    color: white;
+    font-size: 14px;
+    line-height: 20px;
+
+  }
+  /*si un lien est survolé et qui contien des liens */
+  
+
+#menugauche li >ul>li{
+  padding-left: 5%;
+    font-size: 14px;
+  line-height: 20px;
+  
+  }
+  
+ 
+
+  /*si un lien est survolé et qui contien des liens */
+  
+
+#menugauche li:hover >ul{
+    left:  0px;
+    top:0px;
+    margin: 0px;
+    padding: 0px;
+    
+    cursor: pointer;
+    
+    position: relative;
+    margin:0;
+    
+    width: 100%;
+    color: black;
+    background-color: white;
+     
+  }
+  
+  /*si un lsou lien  est survolé et qui contien des liens*/
+#menugauhe li li:hover >ul{
+     left: 160px;
+     top: 0px;
+     margin: 0px;
+     padding: 0px;
+     min-width:50px;
+     border-radius: 10%;
+     transform: skew(25deg);
+
+  }
+
+
+  /***************************************************************************/
+  @media screen and  (max-width: 1050px) {
+
+.menugauche>nav{
+  margin: 0px;
+  padding: 0px;
+  position: relative;
+
+}
+
+}

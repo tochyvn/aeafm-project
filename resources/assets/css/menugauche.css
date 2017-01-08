@@ -1,0 +1,113 @@
+
+html, body, div, span, applet, object, iframe,
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, 
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menugauche, nav, output,  ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+
+  font-size: 20px;
+ 
+  display:block;}
+#monmenugauche{
+margin: 0px;
+padding: 0px;
+background-color: white; 
+margin: 0%;
+}
+#menugauche{
+  position: left;
+  margin: 0px;
+  padding: 0px;
+}
+#menugauche #menugauche ul{
+margin: 0px;
+padding: 0px;
+list-style-type: none;
+
+}
+
+#menugauche li{
+ background-color: black;
+  display: inline-block;
+  position: relative;
+  margin: 0px;
+   padding: 0px;
+  text-align: center;
+  vertical-align: middle;
+  border-radius: 5px ;
+  border: 1px solid  red;
+}
+#menugauche a{
+
+    display: block;
+    
+    width: 100px;
+    line-height: 30px;
+    text-align: center;
+    color: white;
+  margin: 5px;
+  padding: 1px;
+  }
+  #menugauche li li a {
+
+    display: block;
+    color: white;
+    width: 90px;
+    line-height: 30px;
+    text-align: center;
+   
+  margin: 5px;
+  padding: 1px;
+  background-color: yellowgreen;
+  }
+  /*decaler tous les sous menugauche**/
+  #menugauche li ul{
+    position: absolute;
+    left: -5000px;
+    margin: 0px;
+    padding: 0px
+  }
+  /*si un lien est survolé */
+  #menugauche li:hover >ul{
+    left: 5px;
+    margin: 0px;
+    padding: 0px;
+    position: relative;
+    cursor: pointer;
+
+
+  }
+  /*si un lien et un un autre est survolé*/
+  #menugauche li li:hover >ul{
+    left: 160px;
+    top: 0px;
+     margin: 0px;
+     padding: 0px
+     background-color: yellowgreen;
+  }
+
+
+
+
+  #menugauche li:hover  /*quelque soit le menugauche survolÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Â ÃƒÂ¢Ã¢â€šÂ¬Ã¢â€žÂ¢ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã‚Â ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬ÃƒÂ¢Ã¢â‚¬Å¾Ã‚Â¢ÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬Ãƒâ€šÃ‚Â ÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡Ãƒâ€šÃ‚Â¬ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¾Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Â ÃƒÂ¢Ã¢â€šÂ¬Ã¢â€žÂ¢ÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡Ãƒâ€šÃ‚Â¬ÃƒÆ’Ã¢â‚¬Â¦Ãƒâ€šÃ‚Â¡ÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬Ãƒâ€¦Ã‚Â¡ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â© faire ses actions*/
+  {
+    color: red;
+    background-color: gray;
+    cursor: pointer;
+      border-radius: 5px solid red;
+  }
+
+
+

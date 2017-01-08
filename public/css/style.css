@@ -1,0 +1,1152 @@
+html, body, div, span, applet, object, iframe,
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, 
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output,  ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 20px;
+  display:block;
+  
+}
+
+h1::first-letter,h2::first-letter,h3::first-letter,h4::first-letter,h5::first-letter,h6::first-letter{
+text-transform: capitalize;
+}
+.content {
+    margin-left: 0px;
+    padding: 0px;
+    
+   min-height: 500px;
+      
+}
+
+.contentPage{
+ margin:0;
+ padding: 0;
+ margin-top:10%; 
+ min-height: 500px;
+}
+
+.footer{
+
+    background-color: #222222;
+    /*opacity: 0.8;*/
+    margin: 0;
+    padding: 0%;
+   
+
+
+    }
+.footer div{
+    font-family: 'Lato', sans-serif;
+
+    border-right: 1px solid #afafaf;
+    min-height: 150px;
+
+
+    }
+
+.footer div> a{
+   font-family: 'Lato', sans-serif;
+    text-align: center;
+    text-decoration: none;
+    color: #afafaf
+    }
+
+.footer a:hover{
+    text-decoration: none;
+    color: white;
+    }
+.titre{
+  padding: 2%;
+  background-color: #222222;
+  color: #ffffff;
+  width: 30%;
+  margin:1%;
+  margin-left: -5%;
+  transform: skew(25deg);
+  font-family: 'Lato',serif;
+  display: none;
+
+}
+.titre h4{
+  transform: skew(-25deg);
+  margin-left: 20%;
+}
+.entete{
+ /*background: repeating-linear-gradient(
+    -45deg, #CCFF00, #3399FF 15px, white 5px, 50px,white 10px);
+ 
+ box-shadow: 1px 1px 12px #555;
+background-color: white;*/
+position: fixed; width: 100%; margin:0; padding: 0;z-index: 1;
+
+}
+html{
+  overflow-y: scroll;
+}
+ 
+#headerrigh{
+    border-left:200px solid transparent;
+    /*border-bottom: 30px solid color( right, red, yellow);
+    background:linear-gradient(top, blue, white); */
+    width: 50%;
+    display: inline-block;
+    float: right;
+    position: relative;
+    padding:0px;
+    margin: 0px;
+    background-color: #3366FF;
+
+}
+
+
+#header > h2 {
+    padding: 16px;
+    text-align: center; 
+}
+.headerall{
+  background-color: red;
+  width: 100%;
+  height: 10px;
+}
+ 
+.header{
+   /*border-top: 30px solid red;*/
+   width: 100%;
+   display: inline-block;
+   padding:0px;
+   margin: 0px;
+   float: left;
+   
+   
+   
+}
+
+.logo{
+  display: inline-block;
+  float: left;
+  width: 20%;
+  background-color: #e4daf4;
+  padding: 1%;
+  margin-left: -6%;
+  margin-right: 2%;
+  transform: skew(-25deg);
+
+}
+.logoImage{
+  margin: 0;
+  padding: 0;
+  margin-right: 1%;
+  margin-left: 18%;
+  transform: skew(25deg);
+
+}
+.contact{
+    float: left;
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+    margin-left: 0%;
+    margin-bottom: 1%;
+    background-color: #77d3ff;
+    margin-right: 0%;
+
+    background: #77d3ff; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(bottom,rgba(9,0,100,0),rgba(9,0,100,1)); /*Safari 5.1-6*/
+    background: -o-linear-gradient(bottom,rgba(9,0,100,0),rgba(9,0,100,1)); /*Opera 11.1-12*/
+    background: -moz-linear-gradient(bottom,rgba(9,0,100,0),rgba(9,0,100,1)); /*Fx 3.6-15*/
+    background: linear-gradient(bottom, rgba(9,0,100,0), rgba(9,0,100,1)); /*Standard*/
+}
+.adresse{
+transform: skew(-25deg);
+   display:inline-block;
+  float: left;
+  width:60%;
+  font-size: 10px;
+  padding: 0;
+  margin: 0;
+  background-color: #222222;
+ line-height: 14px;
+ font-size: 14px;
+ /* border: 1px solid red;*/
+
+}
+
+.adresse p{
+  font-size: 20px;
+  margin: 0;
+  padding: 0;
+  color: white;
+}
+.adresse a{
+  font-size: 18px;
+  margin: 0;
+  padding: 0;
+  color: white;
+  text-decoration: none;
+  display: inline-block;
+  float: left;
+  margin-left: 1%;
+
+}
+.adresse a:hover{
+  font-size: 18px;
+  margin: 0;
+  padding: 0;
+  color: white;
+  text-decoration: none;
+  display: inline-block;
+  float: left;
+   margin-left: 1%;
+
+}
+.partarge img{
+  float: right;
+  color: red;
+ width: 30px;
+  height: 30px;
+  margin-left: 2px;
+  
+}
+.partarge>img+img+img{
+  padding-left:3%;
+  }
+.partarge{ 
+ display: inline-block;
+ float: right;
+ width: 10%;
+  padding-right:1%;
+  min-height: 41px;
+  margin-right: 0%;
+ 
+  transform: skew(-25deg);
+  
+
+
+}
+.partarge a:hover{
+ 
+}
+.login{
+  
+ 
+  background-color: #330033;
+   display: inline-block;
+  width: 50%;
+  margin: 0;
+  padding: 0;
+  float: right;
+  margin-top: 1%;
+}
+.login .form-control{
+  display: inline-block;
+  float: left;
+  height: 20px;
+  width: 40%;
+  margin: 0;
+  padding:0;
+}
+.login .submitC{
+   float: left;
+ margin: 0;
+ padding: 0;
+ height:20px;
+ font-weight:12px;
+ font-size:12px;
+}
+.login .form{
+  margin: 0;
+  padding: 0;
+}
+.connexion{
+float: left;
+display: inline-block;
+color: gray;
+}
+.iconetel{
+  border: 8px solid black;
+}
+.menu{
+ display: inline-block;
+ color: white;
+ float: right;
+ padding: 0px 0% 0px 0%;
+ transform: skew(-25deg);
+ margin-top: 1%;
+
+}
+.marge{
+  padding-right: 0%;
+}
+.titre{
+  position: center;
+}
+.container-fluid{
+   transform: skew(25deg);
+}
+.IconsBallon{
+   color: #000000;
+ 
+}
+.IconsBallon a{
+  text-decoration: none;
+  
+}
+.IconsBallon a:hover{
+  text-decoration: none;
+  color: #ffffff;
+}
+.coordonnee.Formclass h4{
+   background-color: #77d3ff;
+  text-align: center;
+  margin:0;
+  padding: 0;
+}
+
+.coordonnee div{
+  display: block;
+  display: inline-block;
+  margin:0;
+  padding: 0;
+  font-size: 14px;
+  line-height: 20px;
+  
+
+}
+.dataFormation div{
+  display: block;
+  display: inline-block;
+  margin:0;
+  padding: 0;
+  font-size: 14px;
+  line-height: 20px;
+  background-color: #fffff9;
+
+}
+.coordonnee div> strong{
+  display: inline-block;
+  float: left;
+  margin:0;
+  padding: 0;
+  margin-top: 1%;
+
+}
+.dataFormation div> strong{
+  display: inline-block;
+  float: left;
+  margin:0;
+  padding: 0;
+   font-size: 14px;
+  line-height: 20px;
+
+
+}
+.coordonnee div>label{
+  display: inline-block;
+  float: left;
+  margin:0;
+  padding: 0;
+
+  
+}
+.dataFormation div>label{
+  display: inline-block;
+  float: left;
+  margin:0;
+  padding: 0;
+   font-size: 12px;
+  line-height: 20px;
+  font-weight:12px; 
+  color:  rgb(128,128,128);
+  margin: 5%;
+  
+}
+.data {
+  background-color:#ffdfff;
+  border:1 solid red;
+  margin:0;
+  padding: 0;
+  background-color:#f7f7f7;  font-family: 'Segoe UI'; font-size: 10px;  
+  
+}
+
+  .data h4{
+  background-color: #77d3ff;
+  text-align: center;
+  margin:0;
+  padding: 0;
+
+}
+.data 
+
+.menuAdmin{
+ margin:0;
+ padding: 0;
+}
+.contentAdmin{
+ min-height: 500px;
+ margin:0;
+ padding: 0;
+
+}
+.trPaire{
+ background-color: #f0f0f0
+ height 10px;
+}
+.trImpaire{
+  background-color: #fffff0
+ height 10px;
+}
+.errors{
+  color: #f95238;
+}
+.success{
+  background-color: #ddedd7;
+  border-radius: 10px;
+}
+.Formclass h4{
+
+}
+
+.form-group> label{
+  float: left;
+
+}
+.radio{
+ display: inline-block; float: left;
+ margin-left: 2%;
+}
+.radio-inline label>input{
+  margin-top: 2%;
+}
+.checkbox-inline, .radio-inline {
+  line-height: 20px;
+}
+.profilUser div> strong> label{
+
+ 
+}
+.profilUser div> strong{
+  display: inline-block;
+  float: left;
+  margin:0;
+  padding: 0;
+ font-size: 14px;
+
+}
+.profilUser div{
+ font-size: 14px;
+  
+ 
+
+}
+.profilUser div>label{
+  display: inline-block;
+  float: left;
+  margin:0;
+  padding: 0;
+  font-size: 14px;
+  line-height: 20px;
+  color:  #808080;
+}
+.profilUser div>label>a{
+  display: inline-block;
+  float: left;
+  margin:0;
+  padding: 0;
+  font-size: 14px;
+  line-height: 20px;
+  color:#0e76a8;
+  text-decoration: none;
+}
+.profilUser div>label>a :hover{
+  color:red;
+  
+}
+.userLeft{
+  margin:0;
+  padding: 0;
+  
+}
+.userLeft>div{
+  margin:0;
+  padding: 0;
+  position:  fixed;
+}
+.contentUser{
+  border: 1px solid #e4daf4;
+   font-size: 14px;
+  line-height: 20px;
+  min-height: 500px;
+
+}
+.contentUser>form>div>label{
+    font-size: 14px;
+}
+.contentUser table,th,td,tr{
+    font-size: 14px;
+  line-height: 20px;
+
+}
+.profilUser{
+ 
+
+}
+.bt-link{
+margin: 0;
+padding: 0;
+color: red;
+}
+.userLeftMin{
+   margin:0;
+ padding: 0;
+display: none;
+
+}
+.adresse>p>a{
+  padding: 0;
+  margin: 0;
+  background-color: #222222;
+ line-height: 14px;
+ font-size: 14px;
+ margin-left: 1%;
+
+ /* border: 1px solid red;*/
+}
+.adresse>span{
+  padding: 0;
+  margin: 0;
+  color: #ffffff;
+  height: 20px;
+  display: inline-block;
+  float: left;
+}
+.adresse>span{
+  padding: 0;
+  margin: 0;
+  color: #ffffff;
+  height: 20px;
+}
+/************************************min **************************************/
+@media screen and  (max-width: 1050px) {
+.contentPage{
+  padding-top:200px; 
+ 
+}
+.container-fluid{
+   transform: skew(0deg);
+   margin-left: 10%;
+}
+.entete{
+ /*background: repeating-linear-gradient(
+    -45deg, #CCFF00, #3399FF 15px, white 5px, 50px,white 10px);*/
+ 
+ box-shadow: 1px 1px 12px #555;
+background-color: white;
+width: 100%;
+margin:0;
+padding: 0;
+}
+.header{
+   /*border-top: 30px solid black;*/
+   width: 100%;
+   display: inline-block;
+   padding:0px;
+   margin: 0px;
+   float: left;
+   
+   
+}
+.footer{
+
+    background-color: black;
+    /*opacity: 0.8;*/
+    margin: 0;
+    padding: 0%;
+
+
+    }
+    .footer div{
+
+    border-bottom: 1px solid #afafaf;
+    min-height: 150px;
+
+
+    }
+
+.contentPage{
+  margin-top:1%; 
+  min-height: 500px;
+}
+
+.adresse{
+   display:inline-block;
+  float: left;
+  width: 65%;
+  margin-right: 0%;
+   transform: skew(0deg);
+   
+
+}
+
+.logo{
+  display: inline-block;
+  float: left;
+  width: 30%;
+  padding: 0%;
+  padding-bottom: 2%;
+  transform: skew(0deg);
+
+}
+.logoImage{
+  margin:0;
+  padding: 0;
+  transform: skew(0deg);
+  height: 100%;
+  width: 100%;
+  margin-left: 30%;
+}
+.logo img{
+  margin:0;
+  padding: 0;
+  height: 80px;
+  width: 80px;
+  margin-top: 1%;
+
+}
+.contact{
+ display: inline-block;
+ margin: 0;
+ padding: 0;
+ margin-left: 0%;
+ margin-bottom: 1%;
+ background-color: #77d3ff;
+ margin-right: 0%;
+ margin-left: 0%;
+ width: 100%;
+
+ 
+}
+
+.partarge{
+margin:0;
+padding: 0;
+  min-height: 67px;
+  transform: skew(0deg);
+ 
+  float: right;
+   width:30px;
+
+}
+.partarge img{
+  width:30px;
+  height: 30px;
+  
+  
+}
+.menu{
+  transform: skew(0deg);
+ float: left;
+ width: 100%;
+  margin:0;
+  padding: 0;
+}
+
+.login{
+  background-color: #330033;
+   display: inline-block;
+  width: 50%;
+  margin: 0;
+  padding: 0;
+  float: left;
+  margin-top: 1%;
+}
+.connexion{
+float: right;
+display: inline-block;
+color: gray;
+margin-top: -90px;
+}
+
+
+.title-bar{
+  margin-top: -50px; 
+  margin-left:  350px;
+  float: left; 
+
+}
+.contentHomeRight{
+  width: 400px;
+}
+
+  .mailChimAll{
+    background-color: #77d3ff;
+  }
+
+  .formMailChaim{
+    width: 100%;
+   
+    background-color:blue;
+    
+  }
+  .zone_texte_simple{
+ display: inline-block;
+ float: left;
+ width: 35%;
+ font-family: verdana;
+ 
+ font-size: 0.6em;
+ background-color: red;
+ padding:0%;
+ margin : 0px;
+ border: 1px solid red;
+  padding-left:  5%;
+  font-weight: 100;
+  color: white;
+  }
+  .emailMailChaim{
+   
+   width:60%;
+    font-weight: 40px;
+ font-size: 40px;
+ margin-top: 3%;
+ 
+  margin-left: 3%;
+  }
+  
+  .submitMailChaim{
+   
+    width:20%;
+    left:  -1000px;
+    border: 0px;
+    background-color: red;
+    font-family: verdana;
+    
+ font-size: 1em;
+   padding: 2.75%
+   
+  }
+  .zone_form_simple{
+      display: inline-block;
+     width:80%;
+     float: left;
+     
+  }
+  
+.userLeft{
+   margin:0;
+ padding: 0;
+display: none;
+
+}
+.userLeftMin{
+ margin:0;
+ padding: 0;
+ display: block;
+
+}
+.userLeftMin>div{
+ margin:0;
+ padding: 0;
+
+}
+.userLeft>form{
+   margin:0;
+ padding: 0;
+ margin-top:-295px;
+
+}
+.contentUser{
+  min-height: 0px;
+}
+.min{
+  margin-left:0%;
+}
+
+/**---------------------------------------------------------****/
+.imgaccueil{
+  width: 80%;
+  margin-left: 10%;
+}
+
+
+a{
+  text-decoration: none;
+  text-decoration-style: none;
+ 
+}
+a:first-letter {
+    text-transform: uppercase;
+}
+.imgaccueil{
+  cursor: pointer;
+  margin-left: 0px;
+  position: absolute;
+  background-color: red;
+}
+
+.animate {
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  background-color: red;
+}
+#titre{
+    font-size : 1em;
+    text-align:left; 
+    color:white;
+    font-family:verdana;
+
+}
+
+p:first-letter{
+ font-size : 130%;
+ text-transform: capitalize;
+ margin-left: 25px;
+ 
+}
+h3,h2,h1,h4,h6,h5{
+/*text-transform: capitalize;*/
+}
+p{
+   text-align:justify;
+   font-size: 1px;
+   font-family: font;
+   
+}
+h1:first-letter{
+  font-size:2em ;
+  text-transform: capitalize;
+  font-family: font;
+}
+h3:first-letter{
+  font-size:1em ;
+  text-transform: capitalize;
+  font-family: font;
+}
+.devis{
+  background-color: white;
+}
+.submit{
+  background: radial-gradient(ellipse closest-side, white,
+  white 10%, white 50%, white);
+  color: blue;
+  width: 20%;
+
+  background-color: #428bca;
+  border-color: #357ebd;
+  border-radius: 20px;
+}
+
+.submit:hover  /*quelque soit le menu survolÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Â ÃƒÂ¢Ã¢â€šÂ¬Ã¢â€žÂ¢ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã‚Â ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬ÃƒÂ¢Ã¢â‚¬Å¾Ã‚Â¢ÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬Ãƒâ€šÃ‚Â ÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡Ãƒâ€šÃ‚Â¬ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¾Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Â ÃƒÂ¢Ã¢â€šÂ¬Ã¢â€žÂ¢ÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡Ãƒâ€šÃ‚Â¬ÃƒÆ’Ã¢â‚¬Â¦Ãƒâ€šÃ‚Â¡ÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬Ãƒâ€¦Ã‚Â¡ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â© faire ses actions*/
+  {
+    color: red;
+    background: radial-gradient(ellipse closest-side, blue,
+    blue 10%, #330033 25%, blue);
+    cursor: pointer;
+    min-width:50px;
+    color: white;
+   border-radius: 5px;
+  }
+
+.acceuil{
+  margin-top: 20%;
+  height: 600px;
+  background-image: url('image/acceuil.jpg');
+}
+
+.iconetel{
+  width: 30px;
+  height: 30px;
+  margin:0;
+  padding:0;
+  float: left;
+}
+
+#monmenu{
+  float: right; 
+}
+
+.immeubleSlide,.solSlide,.commercialSlide,.vitreSlide,.bureauSlide,.poubelleSlide{
+  margin-top: 8%;
+  background-color: #56b0c6;
+  height: 300px;
+
+}
+
+.presentation{
+  background-color: #56b0c6;
+  margin-bottom: 5%;
+  border: 1px solid red;
+}
+.accueil
+{
+   background: repeating-linear-gradient(
+    -45deg #CCFF00, #3399FF 15px, white 5px, 50px,white 10px);
+   width:30%;
+   margin: 0 5% 0 10%;
+
+ }
+ .service{
+  
+  background-color: #56b0c6;
+ }
+ .service a{
+  background-color:#FDC0EA;
+  text-decoration: none;
+  height: 25px;
+  color: blue;
+ }
+ .service li{
+  background-color:white;
+  height: 30px;
+ }
+ .titreService{
+    font-size : 1em;
+    text-align:left; 
+    color:white;
+    font-family:verdana;
+   background: radial-gradient(ellipse closest-side, #0000ff,
+    #0000ff 10%,  #0000ff 25%, blue);
+   color: white;
+ }
+/*****************************************************************************/;
+/* 
+ @media only screen and (min-width: 550px) {
+
+  .mailChimAll{
+    background-color: #77d3ff;
+    background: repeating-linear-gradient(
+    -45deg, #CCFF00, #3399FF 15px, white 5px, 50px,white 10px);
+  }
+
+  .formMailChaim{
+    width: 100%;
+    transform: skew(-25deg);
+    
+    
+  }
+  .zone_texte_simple{
+ display: inline-block;
+ 
+ width: 35%;
+ font-family: verdana;
+ 
+ font-size: 30px;
+ background-color: red;
+ position: ;
+ padding:  0%
+ margin:0;
+ border: 1px solid red;
+  padding-left: 5%;
+  font-weight: 900;
+  color: white;
+  }
+
+  .emailMailChaim{
+   
+   width:60%;
+    font-weight: 40px;
+ font-size: 40px;
+ margin-top: 3%;
+ transform: skew(25deg);
+  margin-left: 3%;
+  }
+  
+  .submitMailChaim{
+    float: left;
+    width:20%;
+    
+    border: 0px;
+    background-color:red;
+    font-family: verdana;
+ 
+    font-size: 30px;
+   
+   margin:0;
+   padding: 2.75%;
+  right: 500px;
+  top: 2000px;
+  color: white;
+   
+  }
+  .zone_form_simple{
+      display: inline-block;
+     width:80%;
+     float: left;
+     
+  }
+}*/
+/**********************************************/
+.partenaire{
+  margin-top:1%;
+ 
+  color: #ffffff;
+}
+.partenaire div{
+ 
+padding-bottom: 1%;
+}
+.partenaire div{
+  background-color: #e61a95;
+  color: #ffffff;
+  border: 1px solid #ffffff;
+}
+.partenaire  div + div{
+  background-color: #1858a5;
+  color: #ffffff;
+}
+.partenaire div + div +div {
+  background-color: #8c1b9e;
+
+}
+.partenaire div + div +div + div {
+  background-color: #f2f2f2;
+  color: #0a0a0a;
+}
+.partenaire div>a>img {
+height: 100px; width: 100%;
+
+}
+.inscription{
+  background-color:#77d3ff; 
+}
+.inscription h2{
+  text-align: center;
+  background-color: #77d3ff;
+
+}
+.don{
+    text-align: center;
+  background-color: #77d3ff;
+}
+label:first-letter{
+    text-transform: uppercase;
+}
+label{
+   display: block;
+  margin: 0;
+  font-size: 1rem;
+  font-weight: normal;
+  line-height: 1.8;
+  color: #0a0a0a; 
+}
+.submit{
+  margin-left: 40%;
+
+}
+
+.lienActuel{
+width: 80%;
+border: 1px solid red;
+color: red;
+ 
+ float: right;
+ display: inline-block;
+}
+.lienActuel a{
+  float: left;
+ display: inline-block;
+margin:0;
+padding:0;
+text-decoration:none;
+}
+.lienActuel >a+a{
+ margin-top: 0.8%;
+}
+a:active {
+    
+}
+.contentLeft >div{
+  margin-bottom: 2%;
+
+}
+.lastEvent div{
+  
+  border: 1px solid #77d3ff;
+  margin-bottom: 2%;
+  display: inline-block;
+  float: left;
+}
+.lastEvent div >p{
+ min-width: 410px;
+}
+.lastEvent h4{
+  background-color: #77d3ff;
+  text-align: center;
+  margin:0;
+  padding: 0;
+}
+.lastEvent p{
+  text-align: justify;
+  font-size: 20px;
+}
+.lastEvent img{
+  margin:0;
+  padding: 0;
+}
+.contactForm div{
+  
+  /*border: 1px solid #77d3ff;*/
+  margin-bottom: 2%;
+  display: inline-block;
+  float: left;
+  width: 100%;
+  margin:0;
+  padding: 0;
+
+
+}
+
+.contactForm div> input{
+  margin:0;
+  padding: 0;
+
+
+}
+
+
+.contactForm
+ h4{
+  background-color: #77d3ff;
+  text-align: center;
+  margin:0;
+  padding: 0;
+}
+.actualite{
+  background-color: #77d3ff;
+  /*margin-top: -7%;*/
+}
+.actualite >h2{
+  background-color: #77d3ff;
+text-align: center;
+}
+.actualiteContent {
+ border: 1px solid #77d3ff;
+ min-height:100px; 
+ background-color: #ffffff;
+}
+
+.formIsncription{
+  display: none;
+}
+.inscription{
+  cursor: pointer;
+}
+
+.mainPrpTop{
+  display: none;
+}
+}

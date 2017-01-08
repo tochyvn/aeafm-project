@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-private xmlns="http://www.netbeans.org/ns/project-private/1">
+    <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
+    <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
+        <group>
+            <file>file:/E:/wamp/www/aeafm/app/Inscription.php</file>
+            <file>file:/E:/wamp/www/aeafm/resources/views/user/create.blade.php</file>
+            <file>file:/E:/wamp/www/aeafm/resources/views/user/profil.blade.php</file>
+            <file>file:/E:/wamp/www/aeafm/public/css/menugauche.css</file>
+            <file>file:/E:/wamp/www/aeafm/public/js/app.js</file>
+            <file>file:/E:/wamp/www/aeafm/resources/views/user/edit.blade.php</file>
+            <file>file:/E:/wamp/www/aeafm/resources/views/user/edit-aide.blade.php</file>
+            <file>file:/E:/wamp/www/aeafm/app/Http/Controllers/AideController.php</file>
+            <file>file:/E:/wamp/www/aeafm/resources/views/formation/edit.blade.php</file>
+            <file>file:/E:/wamp/www/aeafm/app/Statut.php</file>
+            <file>file:/E:/wamp/www/aeafm/resources/views/user/show.blade.php</file>
+            <file>file:/E:/wamp/www/aeafm/app/Http/Controllers/Admin/Usercontroller.php</file>
+            <file>file:/E:/wamp/www/aeafm/public/.htaccess</file>
+            <file>file:/E:/wamp/www/aeafm/resources/views/formation/create.blade.php</file>
+            <file>file:/E:/wamp/www/aeafm/public/css/style.css</file>
+            <file>file:/E:/wamp/www/aeafm/resources/views/user/menuUser.blade.php</file>
+            <file>file:/E:/wamp/www/aeafm/resources/views/user/show-aide.blade.php</file>
+            <file>file:/E:/wamp/www/aeafm/public/css/menu.css</file>
+            <file>file:/E:/wamp/www/aeafm/app/Http/Controllers/AideScolaireController.php</file>
+            <file>file:/E:/wamp/www/aeafm/app/Http/Controllers/NiveauEtudeController.php</file>
+            <file>file:/E:/wamp/www/aeafm/public/css/slide.css</file>
+            <file>file:/E:/wamp/www/aeafm/resources/views/user/update.blade.php</file>
+            <file>file:/E:/wamp/www/aeafm/resources/views/acceuil.blade.php</file>
+            <file>file:/E:/wamp/www/aeafm/resources/views/user/recherche.blade.php</file>
+            <file>file:/E:/wamp/www/aeafm/public/css/foundation-6/css/foundation.css</file>
+            <file>file:/E:/wamp/www/aeafm/resources/views/user/userLeft.blade.php</file>
+            <file>file:/E:/wamp/www/aeafm/resources/views/messagerie/create.blade.php</file>
+            <file>file:/E:/wamp/www/aeafm/resources/views/Presentation/statut.blade.php</file>
+            <file>file:/E:/wamp/www/aeafm/resources/views/base.blade.php</file>
+            <file>file:/E:/wamp/www/aeafm/app/Messageries.php</file>
+            <file>file:/E:/wamp/www/aeafm/resources/views/user/index.blade.php</file>
+            <file>file:/E:/wamp/www/aeafm/resources/views/formation/index.blade.php</file>
+            <file>file:/E:/wamp/www/aeafm/app/Http/Controllers/MessageriesController.php</file>
+        </group>
+    </open-files>
+</project-private>
