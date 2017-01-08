@@ -72,3 +72,10 @@ obtenir la valeur session('keyname')
 
 moteur de recherche
 https://www.youtube.com/watch?v=g7YcK-fsOAs&spfreload=10
+
+git clic droit git Gui Here help 
+rescan
+commit > stage to commit
+aller à guit shell repertoire  projet
+commande git pull 
+commande git push
