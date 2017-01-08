@@ -13,7 +13,7 @@ class CreateTypeFormationTable extends Migration
      */
     public function up()
     {
-       /*
+       
          Schema::create('type_formations', function (Blueprint $table) {
 
             $table->increments('id');
@@ -25,7 +25,7 @@ class CreateTypeFormationTable extends Migration
     
   
     
-*/
+
     }
 
     /**

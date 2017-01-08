@@ -12,7 +12,7 @@ class CreateAmisTable extends Migration
      * @return void
      */
     public function up()
-    { /*
+    { 
         Schema::create('amis', function (Blueprint $table) {
        
        $table->increments('id');
@@ -25,7 +25,7 @@ class CreateAmisTable extends Migration
         $table->foreign('freind_id')->references('id')->on('users')->onDelete('cascade');
     
 
-    });*/
+    });
     }
 
     /**

@@ -12,13 +12,13 @@ class CreateStatusTable extends Migration
      * @return void
      */
     public function up()
-    {/*
+    {
        Schema::create('statuts', function (Blueprint $table) {
 
         $table->increments('id');
         $table->string('name')->index();
         $table->timestamps();
-    });*/
+    });
     }
 
     /**

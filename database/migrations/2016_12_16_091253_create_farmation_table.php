@@ -13,7 +13,7 @@ class CreateFarmationTable extends Migration
      */
     public function up()
     {
-        /*Schema::create('formations', function (Blueprint $table) {
+        Schema::create('formations', function (Blueprint $table) {
            
             $table->increments('id');
             $table->integer('type_id');
@@ -27,7 +27,7 @@ class CreateFarmationTable extends Migration
 
             $table->foreign('type_id')->references('id')->on('type_formations')->onDelete('cascade')->onDelete('cascade');
 
-        });*/
+        });
     }
 
     /**

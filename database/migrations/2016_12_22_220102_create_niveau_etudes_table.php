@@ -13,13 +13,13 @@ class CreateNiveauEtudesTable extends Migration
      */
     public function up()
     {
-/*
+
         Schema::create('niveau_etudes', function (Blueprint $table) {
 
         $table->increments('id');
         $table->string('name')->index();
         $table->timestamps();
-        });*/
+        });
     }
 
     /**

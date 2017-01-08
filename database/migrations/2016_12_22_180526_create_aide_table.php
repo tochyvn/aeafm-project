@@ -12,7 +12,7 @@ class CreateAideTable extends Migration
      * @return void
      */
     public function up()
-    {/*
+    {
         Schema::create('aides', function (Blueprint $table) {
         
         $table->increments('id');
@@ -25,7 +25,7 @@ class CreateAideTable extends Migration
         $table->foreign('user_id')->references('id')->on('users')->onDelete('cascade');
         $table->foreign('domaine_id')->references('id')->on('domaines')->onDelete('cascade');
         
-        });*/
+        });
     }
    
 

@@ -12,7 +12,7 @@ class CreateMassageriesTable extends Migration
      * @return void
      */
     public function up()
-    {/*
+    {
         Schema::create('messageries', function (Blueprint $table) {
        
         $table->increments('id');
@@ -23,7 +23,7 @@ class CreateMassageriesTable extends Migration
         $table->foreign('sender_id')->references('id')->on('users')->onDelete('cascade');
         $table->foreign('recipient_id')->references('id')->on('users')->onDelete('cascade');
 
-    });*/
+    });
     }
 
     /**

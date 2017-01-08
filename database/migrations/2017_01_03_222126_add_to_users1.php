@@ -14,11 +14,11 @@ class AddToUsers1 extends Migration
     public function up()
     {
         Schema::table('users', function (Blueprint $table) {
-            /*$table->foreign('country_origin_id')->references('id')->on('pays');
+            $table->foreign('country_origin_id')->references('id')->on('pays');
             $table->foreign('country_residence_id')->references('id')->on('pays');
             $table->foreign('level_id')->references('id')->on('niveau_etudes');
             $table->foreign('domaine_id')->references('id')->on('domaine');
-            $table->foreign('role')->references('id')->on('statuts');*/
+            $table->foreign('role')->references('id')->on('statuts');
         });
     }
 
