@@ -24,7 +24,12 @@ class CreateFarmationTable extends Migration
             $table->text('description');
             $table->timestamps();
 
+<<<<<<< HEAD
            /* $table->foreign('type_id')->references('id')->on('type_formations')->onDelete('cascade')->onDelete('cascade*/
+=======
+            $table->foreign('type_id')->references('id')->on('type_formations')->onDelete('cascade')->onDelete('cascade');
+
+>>>>>>> 8b8937c5a12bdb4ba6267da6e685e2a5c8856eca
         });
     }
 
