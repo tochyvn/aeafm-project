@@ -13,19 +13,18 @@ class CreateTypeFormationTable extends Migration
      */
     public function up()
     {
-       /*
+       
          Schema::create('type_formations', function (Blueprint $table) {
 
             $table->increments('id');
             $table->string('name')->index();
             $table->text('description');
-            $table->timestamp('created_at');
-            $table->timestamp('updated_at');
+            $table->timestamps();
         });
     
   
     
-*/
+
     }
 
     /**

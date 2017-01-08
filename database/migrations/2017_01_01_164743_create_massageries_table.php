@@ -12,18 +12,20 @@ class CreateMassageriesTable extends Migration
      * @return void
      */
     public function up()
-    {/*
+    {
         Schema::create('messageries', function (Blueprint $table) {
        
         $table->increments('id');
         $table->integer('sender_id');
         $table->integer('recipient_id');
         $table->text('message');
+        $table->integer('lu')->default(0);
         $table->timestamps();
-        $table->foreign('sender_id')->references('id')->on('users')->onDelete('cascade');
-        $table->foreign('recipient_id')->references('id')->on('users')->onDelete('cascade');
 
-    });*/
+        /*$table->foreign('sender_id')->references('id')->on('users')->onDelete('cascade');
+        $table->foreign('recipient_id')->references('id')->on('users')->onDelete('cascade');*/
+
+    });
     }
 
     /**

@@ -19,7 +19,7 @@ class RegisterController extends Controller
 	| provide this functionality without requiring any additional code.
 	|
 	*/
-
+    //initialiser les variable du formulaire auth.register 
 	use RegistersUsers;
 
 	/**

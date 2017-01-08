@@ -34,11 +34,11 @@ class CreateUsersTable extends Migration
             $table->rememberToken();
             $table->timestamps();
 
-            $table->foreign('country_origin_id')->references('id')->on('pays');
+           /* $table->foreign('country_origin_id')->references('id')->on('pays');
             $table->foreign('country_residence_id')->references('id')->on('pays');
             $table->foreign('level_id')->references('id')->on('niveau_etudes');
             $table->foreign('domaine_id')->references('id')->on('domaine');
-            $table->foreign('role')->references('id')->on('statuts');
+            $table->foreign('role')->references('id')->on('statuts');*/
 
         });
     }

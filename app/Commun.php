@@ -9,8 +9,8 @@ public static function msgRecive($id){
             ->whereExists(function ($query) use( $id)  {
             $query->select(DB::raw(1) )
                   ->from('messageries')
-                  ->whereRaw('Messageries.sender_id=users.id and Messageries.lu=0 ')
-                  ->where('Messageries.recipient_id',$id);
+                  ->whereRaw('messageries.sender_id=users.id and messageries.lu=0')
+                  ->where('messageries.recipient_id',$id);
      
             })->get();
            return $messagesRecive;
@@ -23,8 +23,8 @@ public static function msgSend($id){
             ->whereExists(function ($query) use( $id)  {
             $query->select(DB::raw(1) )
                   ->from('messageries')
-                  ->whereRaw('Messageries.recipient_id=users.id ')
-                  ->where('Messageries.sender_id',$id);
+                  ->whereRaw('messageries.recipient_id=users.id ')
+                  ->where('messageries.sender_id',$id);
      
             })->get();
              $domaine = DB::select('select * from aides ,users, domaines where  domaines.id=aides.domaine_id and aides.user_id=users.id and users.id = ?' , [$id]);

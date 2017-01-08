@@ -12,13 +12,13 @@ class CreateDomaineTable extends Migration
      * @return void
      */
     public function up()
-    {/*
+    {
         Schema::create('domaines', function (Blueprint $table) {
 
         $table->increments('id');
         $table->string('domaie_name');
         $table->timestamps();
-        });*/
+        });
     }
 
 

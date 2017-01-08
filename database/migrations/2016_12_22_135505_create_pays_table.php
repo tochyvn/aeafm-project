@@ -12,7 +12,7 @@ class CreatePaysTable extends Migration
      * @return void
      */
     public function up()
-    { /*
+    { 
         Schema::create('pays', function (Blueprint $table) {
 
             $table->increments('id');
@@ -21,9 +21,9 @@ class CreatePaysTable extends Migration
             $table->string('alpha3')->index();
             $table->string('nom_en_gb')->index();
             $table->string('nom_fr_fr')->index();
-            $table->timestamp('created_at');
-            $table->timestamp('updated_at');
-        });*/
+            $table->timestamps();
+            
+        });
     }
 
     /**

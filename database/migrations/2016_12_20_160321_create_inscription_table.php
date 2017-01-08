@@ -12,20 +12,20 @@ class CreateInscriptionTable extends Migration
      * @return void
      */
     public function up()
-    {/*
+    {
             Schema::create('inscriptions', function (Blueprint $table) {
         
             $table->increments('id');
             $table->integer('formation_id');
             $table->integer('user_id');
-            $table->timestamp('created_at');
-            $table->timestamp('updated_at');
+            $table->timestamps();
+            
            
-            $table->foreign('formation_id')->references('id')->on('formations')->onDelete('cascade');
-            $table->foreign('user_id')->references('id')->on('users')->onDelete('cascade');
+           /* $table->foreign('formation_id')->references('id')->on('formations')->onDelete('cascade');
+            $table->foreign('user_id')->references('id')->on('users')->onDelete('cascade');*/
 
 
-        });*/
+        });
     }
 
     /**

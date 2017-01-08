@@ -26,6 +26,7 @@ use App\Commun;
 class Usercontroller extends Controller {
 
     public function __construct() {
+        
         $this->middleware('auth');
     }
 
@@ -36,7 +37,7 @@ class Usercontroller extends Controller {
         $pays = Pays::get();
         $aide = Aide::get();
          //trouver les domaines dans les quels j'ai proposé mon aide
-
+         
          
         //$user=User::where('email',$user)->first();
        
